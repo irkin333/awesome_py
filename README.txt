@@ -8,3 +8,18 @@ Python types:
 - Sring
 - Dictionaries
 - Objects
+
+#transform string into number
+int('1')
+float('1.1')
+
+#functions
+1. def my_func(first_arg):
+       return first_arg
+
+2. def my_func(first_arg='Default value'):
+       return first_arg
+
+3. def my_func(first_arg, second_arg):
+       return [first_arg, second_arg]
+   my_func(second_arg=1, first_arg=2);
