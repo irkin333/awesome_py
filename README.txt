@@ -23,3 +23,11 @@ float('1.1')
 3. def my_func(first_arg, second_arg):
        return [first_arg, second_arg]
    my_func(second_arg=1, first_arg=2);
+
+#loops
+1. for: (go through elements in the iterable list)
+       for block in block_list:
+              print(block)
+2. while: (execute code while condition is truthy)
+       while a == b:
+              print('Hello')
