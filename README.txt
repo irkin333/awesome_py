@@ -13,6 +13,13 @@ Python types:
 int('1')
 float('1.1')
 
+#operators
+1. is => check if that is the same object(not value) '1 is 1'
+2. in => check if certain value is inside iterable
+3. not => the same as ! => 2 is not 1
+4. and => combine multiple conditions
+5. or => combine multiple conditions 
+
 #functions
 1. def my_func(first_arg):
        return first_arg
@@ -22,7 +29,7 @@ float('1.1')
 
 3. def my_func(first_arg, second_arg):
        return [first_arg, second_arg]
-   my_func(second_arg=1, first_arg=2);
+   my_func(second_arg=1, first_arg='2');
 
 #loops
 1. for: (go through elements in the iterable list)
@@ -31,3 +38,12 @@ float('1.1')
 2. while: (execute code while condition is truthy)
        while a == b:
               print('Hello')
+
+#conditionals
+1. if-else:
+       if my_value < 15:
+              print('First condition!')
+       elif my_value < 12:
+              print('Second condition!')
+       else:
+              print('Default condition!')
