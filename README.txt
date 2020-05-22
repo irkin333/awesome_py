@@ -38,6 +38,7 @@ float('1.1')
 2. while: (execute code while condition is truthy)
        while a == b:
               print('Hello')
+*you can add else: block for loops - both while and for
 
 #conditionals
 1. if-else:
