@@ -55,3 +55,14 @@ float('1.1')
 2. Set - {} - mutable, unordered list, no duplicates allowed, mostly only one type
 3. Tuple - () - immutable, ordered list, duplicates allowed, often mixed types
 4. Dictionary - { key: value } - mutable, unordered map, no duplicate keys, often mixed types
+
+#comprehensions
+1. list comprehension
+numbers = [1, 2, 3]
+doubled_numbers = [(el * 2) for el in numbers] - go through all elements in an array and change iterable
+2. dict comprehension
+user_data = [('age', 29), ('weight', 55), ('height', 160)]
+user = { key: value for (key, value) in user_data } - create a dict out of list of tuples
+3. list comprehension with conditionals
+numbers = [1, 2, 3, 4]
+doubled_numbers = [(el * 2) for el in numbers if el%2 == 0] => create new list only out of even numbers from the original list
