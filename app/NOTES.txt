@@ -66,3 +66,8 @@ user = { key: value for (key, value) in user_data } - create a dict out of list 
 3. list comprehension with conditionals
 numbers = [1, 2, 3, 4]
 doubled_numbers = [(el * 2) for el in numbers if el%2 == 0] => create new list only out of even numbers from the original list
+
+#copying
+1. List & Tuple
+list_1 = [0, 1, 2, 3]
+list_copy = list_1[:] => creates a copy of list_1. [start_index:end_index] => use it to copy part of the list
