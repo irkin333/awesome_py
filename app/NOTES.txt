@@ -71,3 +71,10 @@ doubled_numbers = [(el * 2) for el in numbers if el%2 == 0] => create new list o
 1. List & Tuple
 list_1 = [0, 1, 2, 3]
 list_copy = list_1[:] => creates a copy of list_1. [start_index:end_index] => use it to copy part of the list
+
+#comparisons
+1. one = [1, 2]
+   two = [1, 2]
+   one == two => True
+   one is two => False
+
