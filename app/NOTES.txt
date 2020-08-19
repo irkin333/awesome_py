@@ -78,3 +78,7 @@ list_copy = list_1[:] => creates a copy of list_1. [start_index:end_index] => us
    one == two => True
    one is two => False
 
+#checks
+my_list = [True, True, False]
+any(my_list) => True (at least one value is correct)
+all(my_list) => True (all values are correct)
