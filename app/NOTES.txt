@@ -32,6 +32,18 @@ float('1.1')
        return [first_arg, second_arg]
    my_func(second_arg=1, first_arg='2');
 
+#function arguments unpacking
+1. def my_func(*args):
+       for arg in args:
+         print(arg) => allows to pass as many arguments as were passed
+   my_func(1, 2, 3, 4, 5)
+   my_func([1, 2, 3])
+
+2. def my_func(**named_args):
+       for (key, arg) in named_args.items():
+         print(key, arg) => will print all named arguments with their values
+   my_func(num=1, num2=2)
+
 #loops
 1. for: (go through elements in the iterable list)
        for block in block_list:
