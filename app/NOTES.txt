@@ -82,3 +82,6 @@ list_copy = list_1[:] => creates a copy of list_1. [start_index:end_index] => us
 my_list = [True, True, False]
 any(my_list) => True (at least one value is correct)
 all(my_list) => True (all values are correct)
+
+#lambda function
+lambda arg: arg + 2
