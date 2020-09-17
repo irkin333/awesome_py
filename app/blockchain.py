@@ -1,4 +1,6 @@
-import functools
+from functools import reduce
+import hashlib as hl
+import json
 
 MINING_REWARD = 10
 
@@ -28,7 +30,7 @@ def add_transaction(recipient, sender=owner, amount=1.0):
 
 
 def hash_block(block):
-    return '-'.join([str(block[key]) for key in block])
+    return hl.sha256(json.dumps(block).encode()).hexdigest()
 
 
 def get_balance(participant):
